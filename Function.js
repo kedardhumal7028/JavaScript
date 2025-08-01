@@ -27,3 +27,35 @@ let nums = [1, 2, 3, 4, 5];
 nums.forEach((num) => {
     console.log(num * num);
 });
+
+
+let num = [1, 2, 3, 4, 5, 6, 7, 8];
+let evenArry = num.filter((num) => {
+    return num % 2 == 0;
+});
+console.log(evenArry);
+
+
+
+
+
+
+
+
+let marks = [97, 64, 32, 49, 99, 96, 86];
+let max = marks.filter((marks) => {
+    return marks > 90;
+});
+console.log(max);
+
+
+
+
+let n = prompt("Enter a number : ");
+n = Number(n);
+let arr = [];
+
+for (let i = 1; i <= n; i++) {
+    arr[i - 1] = i;
+}
+
